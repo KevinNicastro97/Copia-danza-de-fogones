@@ -236,8 +236,12 @@ hr {
     text-decoration: none;
 }
 a {
+    text-decoration: none;
     cursor: pointer;
-    color: #95375E;
+    
+}
+a :hover {
+    color: #ffa7bd;
 }
 
 
