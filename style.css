@@ -1,0 +1,352 @@
+main {
+    padding: 10px 135px 10px 135px;
+}
+/* HEADER */
+header{
+    padding: 10px 135px 10px 135px;
+    display: flex;
+  
+}
+#header {
+    display: flex;
+}
+.logo {
+    margin-top: -20px;
+}
+.linea{
+    margin-top: 2px;
+    width: 100%;
+    height: 0.1px;
+  background-color: rgb(224, 224, 224);
+}
+#nav {
+    display: flex;
+    list-style: none;
+
+}
+#nav li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding-right: 50px;
+    margin-top: -15px;
+    margin-left: 8px;
+}
+#redes{
+    display: flex;
+    list-style: none;
+    margin-top: -5px;
+    margin-left: 60px;
+}
+#redes img{
+    width: 30px;
+    padding-right: 18px;
+}
+#search img{
+    margin-left: 50px;
+    width: 25px;
+}
+
+
+/* MAIN */
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 35px;
+    color: #323545;
+    font-weight: 200;
+}
+
+#subtitle {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #323545;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.3px;
+}
+
+hr {
+    margin-top: -17px;
+    border: none;
+    background-color: #ffa7bd;
+    height: 17px;
+}
+
+#ultimas-recetas-h2 {
+
+    margin-top: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(24, 24, 24, 0.9);
+    font-size: 30px;
+}
+
+#ultimas-recetas-p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #323545;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#ultimas-recetas-div{
+    display: block;
+}
+#ultimas-recetas-ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 57px 17px;
+
+}
+
+.ultimas-recetas-img {
+    text-align: center;
+
+
+}
+
+.ultimas-recetas-img img {
+
+    width: 250px;
+}
+.ultimas-recetas-img p {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #323545;
+    cursor: pointer;
+}
+.ver-recetas-img {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.ver-recetas-img img{
+ 
+    height: auto;
+    border-radius: 50%;
+}
+.ver-recetas-img p{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #323545;
+    cursor: pointer;
+}
+.clasificacion {
+    opacity: 80%;
+    margin-top: -40px;
+    height: 100px;
+    max-width: 100px;
+}
+.ver-mas {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #323545;
+    cursor: pointer;
+    font-weight: 400px;
+    text-align: right !important;
+}
+.ver-mas span{
+    color: #95375E;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    font-weight: 400px;
+}
+.ir-arriba {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #95375E;
+    cursor: pointer;
+    font-weight: 800px;
+}
+.mencion {
+    margin-top: 30px;
+    color: rgb(36, 36, 36);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 800px;
+}
+.logo-footer {
+    width: 100%;
+}
+
+.rectangulo {
+    margin-top: 80px;
+    display: flex;
+    background-color: #f2f2f2;
+}
+.rectangulo-img img {
+    padding: 20px;
+    width: 250px;
+    border-radius: 100%;
+}
+.rectangulo-txt {
+    padding-right: 80px;
+    padding-left: 40px;
+}
+#ultimas-recetas-p{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+
+/* FOOTER */
+#footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.legal,.contacto, #contacto, #legal, #newsletter{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 60px;
+    margin-right: 100px;
+    list-style: none;
+    text-align: center;
+}
+
+#legal p{
+    font-size: 23px;
+}
+#contacto p{
+    font-size: 23px;
+}
+#newsletter p{
+    font-size: 23px;
+    margin-top: -15px;
+}
+.copyright {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+.actualizar {
+    font-size: 15px;
+    margin-top: 80px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+a {
+    cursor: pointer;
+    color: #95375E;
+}
+
+
+/* MEDIAQ */
+
+@media (max-width: 1200px) {
+    main {
+        padding-right: 130px;
+        padding-left: 20px;
+    }
+    
+    header{
+        padding-left: 20px;
+
+        padding-right: 10px;
+
+      
+    }
+    #ultimas-recetas-div{
+    display: grid;
+    
+}
+    #ultimas-recetas-ul{
+        grid-template-columns: auto auto auto;
+    }
+    #ultimas-recetas-ul li{
+        display: grid;
+    }
+
+}
+@media (max-width: 900px) {
+    main {
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+    
+    header{
+        padding-left: 20px;
+
+        padding-right: 10px;
+
+      
+    }
+    #ultimas-recetas-div{
+    display: grid;
+    
+}
+    #ultimas-recetas-ul{
+        grid-template-columns: auto auto auto;
+    }
+    #ultimas-recetas-ul li{
+        display: grid;
+    }
+    #redes {
+        display: none;
+    }
+    #search {
+        display: none;
+    }
+
+
+}
+@media (max-width: 680px) {
+    main {
+     
+        padding-right: 0px;
+        padding-left: 80px;      
+    }
+    #ultimas-recetas-div{
+    display: grid;
+    
+}
+    #ultimas-recetas-ul{
+        grid-template-columns: auto auto;
+    }
+    #ultimas-recetas-ul li{
+        display: grid;
+    }
+    #redes {
+        display: none;
+    }
+    #search {
+        display: none;
+    }
+
+}
+@media (max-width: 400px) {
+    main {
+     
+        padding-right: 15px;
+        padding-left: 15px;      
+    }
+    #ultimas-recetas-div{
+    display: grid;
+    
+}
+    #ultimas-recetas-ul{
+        grid-template-columns: auto;
+    }
+    #ultimas-recetas-ul li{
+        display: grid;
+    }
+    p {
+        text-align: center;
+
+        font-size: 200px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #323545;
+        cursor: pointer;
+    }
+
+}
